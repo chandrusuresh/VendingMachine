@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		CF00D1111E36C0B300D2CF68 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF00D1101E36C0B300D2CF68 /* main.cpp */; };
+		CF00D1191E36C68C00D2CF68 /* VendingMachine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF00D1171E36C68C00D2CF68 /* VendingMachine.cpp */; };
+		CF00D11C1E36CC8C00D2CF68 /* Testing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF00D11A1E36CC8C00D2CF68 /* Testing.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		CF00D10D1E36C0B300D2CF68 /* VendingMachine */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = VendingMachine; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF00D1101E36C0B300D2CF68 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CF00D1171E36C68C00D2CF68 /* VendingMachine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VendingMachine.cpp; sourceTree = "<group>"; };
+		CF00D1181E36C68C00D2CF68 /* VendingMachine.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = VendingMachine.hpp; sourceTree = "<group>"; };
+		CF00D11A1E36CC8C00D2CF68 /* Testing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Testing.cpp; sourceTree = "<group>"; };
+		CF00D11B1E36CC8C00D2CF68 /* Testing.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Testing.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				CF00D1101E36C0B300D2CF68 /* main.cpp */,
+				CF00D11A1E36CC8C00D2CF68 /* Testing.cpp */,
+				CF00D11B1E36CC8C00D2CF68 /* Testing.hpp */,
+				CF00D1171E36C68C00D2CF68 /* VendingMachine.cpp */,
+				CF00D1181E36C68C00D2CF68 /* VendingMachine.hpp */,
 			);
 			path = VendingMachine;
 			sourceTree = "<group>";
@@ -120,6 +130,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF00D1111E36C0B300D2CF68 /* main.cpp in Sources */,
+				CF00D1191E36C68C00D2CF68 /* VendingMachine.cpp in Sources */,
+				CF00D11C1E36CC8C00D2CF68 /* Testing.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
